@@ -6,7 +6,8 @@ import { RouterOutlet } from '@angular/router';
   imports: [RouterOutlet],
   templateUrl: './app.html',
   styleUrl: './app.css'
-})
+}) 
 export class App {
   protected readonly title = signal('angular-basics');
+  name = "Suraj Gund"
 }
